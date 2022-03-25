@@ -1,9 +1,11 @@
 /*
  * 
+ ============================IMPORTANT======================
 out3 = stop knob
 out2 = start knob
-https://github.com/raspiuser1/Automate-Wolfgarten-S300-wifi/
-dont forget to setup your static ip
+put your wifi detals in config.h
+this repo link: https://github.com/raspiuser1/Automate-Wolfgarten-S300-wifi/
+dont forget to setup your static ip below in this script
  */
 
 #include <ESP8266WiFi.h>
