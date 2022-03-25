@@ -56,9 +56,7 @@ while SCOPES:
     now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
     #print('Getting the upcoming 10 events')
     #events_result = service.events().list(calendarId='primary', timeMin=now, #voor de standaard kalender
-    #ID lampen kalender: 1hgvgpvv9rcqrb2nk42vvl653g@group.calendar.google.com
-    #ID wakeuplight kabelnder: ifhi8jte80ead8ujjlq1nbb1ng@group.calendar.google.com
-    events_result = service.events().list(calendarId='s0cmm0ukgqfptp4uhjadn0evc8@group.calendar.google.com', timeMin=now,
+    events_result = service.events().list(calendarId='change your id here@group.calendar.google.com', timeMin=now,
                                         maxResults=1, singleEvents=True,
                                         orderBy='startTime').execute()
     #events = events_result.get('items', [])
