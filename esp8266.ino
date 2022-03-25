@@ -3,7 +3,7 @@
 out3 = stop knob
 out2 = start knob
 https://github.com/raspiuser1/Automate-Wolfgarten-S300-wifi/
-set to static ip like: http://192.168.1.122
+dont forget to setup your static ip
  */
 
 #include <ESP8266WiFi.h>
@@ -144,6 +144,12 @@ void handleNotFound(){
 
 void setup(void){
   Serial.begin(115200);
+IPAddress local_IP(192, 168, 1, 122);
+// Set your Gateway IP address
+IPAddress gateway(192, 168, 1, 254);
+IPAddress subnet(255, 255, 255, 0);
+IPAddress primaryDNS(8, 8, 8, 8);   //optional
+IPAddress secondaryDNS(8, 8, 4, 4); //optional
 
   while (!Serial)  // Wait for the serial connection to be establised.
     delay(50);
