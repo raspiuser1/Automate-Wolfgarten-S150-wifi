@@ -60,9 +60,11 @@ robotmaaier_command.sh maaien.met.kinderslot<br />
 
 what hardware do you need?<br />
 -ESP8266 NODE MCU1.0<br />
-https://www.amazon.com/ESP8266/s?k=ESP8266
+https://www.amazon.com/ESP8266/s?k=ESP8266  <br />
+
 -5volt arduino relay module 2 channel (not solid state relay) <br />
 https://www.amazon.com/s?k=arduino+relay+module+2+channel&crid=2APUU5MFMHU4O&sprefix=arduino+relay+module+2+channel%2Caps%2C155&ref=nb_sb_noss<br />
+
 -voltage regulator for the ESP8266, the esp needs 5 volts like. voltage regulator like: <br />
 https://www.amazon.com/Converter-DROK-Regulator-Inverter-Transformer/dp/B01NALDSJ0/ref=sr_1_9?crid=2CER2UD56BQ36&keywords=voltage+regulator+5v&qid=1648233451&sprefix=voltage+regulator+5%2Caps%2C169&sr=8-9<br />
 
