@@ -2,17 +2,17 @@
 Link of this repo: https://github.com/raspiuser1/Automate-Wolfgarten-S150-wifi<br />
 Automate your wolfgarten S300 Robot lawn mower with an arduino ESP8266 wifi module and Control it via google Agenda<br />
 
-=======================================================Setup a google calender api:======================================================= <br />
+==========================Setup a google calender api========================== <br />
 https://developers.google.com/calendar/api<br />
 https://developers.google.com/calendar/api/quickstart/python<br />
 and get your calender ID and credentials.json file which i needed in this project.<br />
 
-=======================================================Install Arduino sketch:=======================================================<br />
+==========================Install Arduino sketch==========================br />
 Set your ip and dns first if need in the INO file and Upload the arduino sketch esp8266.ino to your ESP8266, I used a NODE MCU 1.0.<br />
 The best is to set a static ip. In this example we are using 192.168.1.122 you can change it both in  esp8266.ino and robotmaaier_command.sh<br />
 I translated already some commands from dutch into english. you can change it to your own language.<br />
 
-=======================================================How it works:=======================================================<br />
+==========================How it works==========================br />
 There is a webserver running at the arduino which controls 2 outputs.<br />
 1 output for the start knob and 1 for the stop button as there are only 2 buttons on the S315 wolfgarten.<br />
 The outputs are connected to a arduino relay board which is connected to the buttons.<br />
@@ -28,14 +28,14 @@ from the google calender setup you received a credentials.json file which you ha
 the token.pickle file will be created when the script is started the first time.<br />
 change the Calender ID in the script (line 59) according to your used calender, I made a new layer for this one so its seperated from my standard agenda.<br />
 
-=======================================================The script:=======================================================<br />
+==========================The script==========================br />
 the script listens for the word START or STOP which must be set into your calender, so when you start an event with the word START at 12:00 the lawn mower will start<br /> at that point. for example set it for 5mins that will do so from 12:00 to 12:05, it will now do the standard mowing (2,5 hours) when the battery is fully charged.<br />
 when START or STOP is met the script will run the shell script robotmaaier_command.sh, which translates it to a command which is compatible with our arduino webserver.<br />
 
-=======================================================why is there a seperated shell file?=======================================================<br />
+==========================why is there a seperated shell file==========================br />
 that's because you can run it from home automation software, a website or manually without the need of the google agenda.<br />
 
-=======================================================Terminal commands are:======================================================= <br />
+==========================Terminal commands are========================== <br />
 #stop and go to the base station:<br />
 robotmaaier_command.sh noodstop.home<br />
 
@@ -58,7 +58,7 @@ robotmaaier_command.sh kinderslot.uit<br />
 robotmaaier_command.sh maaien.met.kinderslot<br />
 
 
-=======================================================what hardware do you need?=======================================================<br />
+==========================what hardware do you need==========================br />
 -ESP8266 NODE MCU1.0<br />
 https://www.amazon.com/ESP8266/s?k=ESP8266  <br />
 
@@ -72,4 +72,4 @@ connect D1 (out2 = start knob) and D6 (out3 = stop knob) to the relay board, and
 next thing is to located the wires from both knobs on the mower, the video will show you. you have to connect the relays to the knobs to make it work.
 
 
-=======================================================A video will be posted soon=======================================================<br />
+==========================A video will be posted soon==========================br />
