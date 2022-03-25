@@ -58,5 +58,11 @@ robotmaaier_command.sh kinderslot.uit<br />
 robotmaaier_command.sh maaien.met.kinderslot<br />
 
 
+what hardware do you need?
+-ESP8266 NODE MCU1.0
+-arduino relay module 2 channel (not solid state relay) 
+-voltage regulator for the ESP8266, the esp needs 5 volts
+out3 = stop knob
+out2 = start knob
 
 A video will be posted soon<br />
