@@ -58,11 +58,16 @@ robotmaaier_command.sh kinderslot.uit<br />
 robotmaaier_command.sh maaien.met.kinderslot<br />
 
 
-what hardware do you need?
--ESP8266 NODE MCU1.0
--arduino relay module 2 channel (not solid state relay) 
--voltage regulator for the ESP8266, the esp needs 5 volts
-out3 = stop knob
-out2 = start knob
+what hardware do you need?<br />
+-ESP8266 NODE MCU1.0<br />
+https://www.amazon.com/ESP8266/s?k=ESP8266
+-5volt arduino relay module 2 channel (not solid state relay) <br />
+https://www.amazon.com/s?k=arduino+relay+module+2+channel&crid=2APUU5MFMHU4O&sprefix=arduino+relay+module+2+channel%2Caps%2C155&ref=nb_sb_noss<br />
+-voltage regulator for the ESP8266, the esp needs 5 volts like. voltage regulator like: <br />
+https://www.amazon.com/Converter-DROK-Regulator-Inverter-Transformer/dp/B01NALDSJ0/ref=sr_1_9?crid=2CER2UD56BQ36&keywords=voltage+regulator+5v&qid=1648233451&sprefix=voltage+regulator+5%2Caps%2C169&sr=8-9<br />
+
+connect D1 (out2 = start knob) and D6 (out3 = stop knob) to the relay board, and power the relay board with 5 volt<br />
+next thing is to located the wires from both knobs on the mower, the video will show you. you have to connect the relays to the knobs to make it work.
+
 
 A video will be posted soon<br />
