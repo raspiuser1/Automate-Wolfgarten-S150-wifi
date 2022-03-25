@@ -32,7 +32,7 @@ the script listens for the word START or STOP which must be set into your calend
 when START or STOP is met the script will run the shell script robotmaaier_command.sh, which translates it to a command which is compatible with our arduino webserver.<br />
 
 why is there a seperated shell file?<br />
-that's because you can run it from home automation software or manually without the need of the google agenda.<br />
+that's because you can run it from home automation software, a website or manually without the need of the google agenda.<br />
 
 Terminal commands are: <br />
 #stop and go to the base station:<br />
