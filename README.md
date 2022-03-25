@@ -14,9 +14,10 @@ There is a webserver running at the arduino which controls 2 outputs.
 The outputs are connected to a arduino relay board which is connected to the buttons.
 This arduino will go into your lawn mower and simply press the buttons with the proper delay for it.
 
-upload the robotmaaier.py and wakeup file to your raspi or ubuntu system and run it via a crontab (change paths) like:
+make a dir like: /script/google-kalender and upload the robotmaaier.py and wakeup file to your raspi or ubuntu system and run it via a crontab (change paths).
+crontab line:
 @reboot sleep 10 && /script/google-kalender/wakeup /script/google-kalender/robotmaaier.py
-the wakeup file will always start the python script if it fails, the script will check the google calenderevery 60 seconds
+The wakeup file will always start the python script if it fails, the script will check the google calenderevery 60 seconds
 
 from the google calender setup you received a credentials.json file which you have to put in the same directory as the script.
 change the Calender ID in the script (line 59) according to your used calender, I made a new layer for this one.
