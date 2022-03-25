@@ -15,6 +15,8 @@
 #define out5 2
 #define out6 13
 
+// we are only using D1 (out2) and D6 (out3)
+
 //D0 = GPIO16;
 //D1 = GPIO5;
 //D2 = GPIO4;
