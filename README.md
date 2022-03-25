@@ -1,8 +1,10 @@
 # Automate-Wolfgarten-S150-wifi<br />
 Automate your wolfgarten S300 lawn mower with an arduino ESP8266 wifi module and Control it via google Agenda<br />
 
-Setup a google calender api: https://developers.google.com/calendar/api<br />
-and get your ID and credentials file.<br />
+Setup a google calender api: 
+https://developers.google.com/calendar/api<br />
+https://developers.google.com/calendar/api/quickstart/python<br />
+and get your calender ID and credentials.json file which i needed in this project.<br />
 
 Install Arduino sketch:<br />
 Set your ip and dns first if need in the INO file and Upload the arduino sketch esp8266.ino to your ESP8266, I used a NODE MCU 1.0.<br />
