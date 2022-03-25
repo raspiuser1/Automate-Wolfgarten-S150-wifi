@@ -10,3 +10,6 @@ There is a webserver running at the arduino which controls 2 outputs.
 1 output for the start knob and 1 for the stop button as there are only 2 buttons on the S315 wolfgarten.
 The outputs are connected to a arduino relay board which is connected to the buttons.
 This arduino will go into your lawn mower and simply press the buttons with the proper delay for it.
+
+upload the robotmaaier.py to your raspi or ubuntu system and run it via a crontab (change paths) like:
+@reboot sleep 10 && /script/google-kalender/wakeup /script/google-kalender/robotmaaier.py
