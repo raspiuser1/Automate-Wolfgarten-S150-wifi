@@ -1,7 +1,7 @@
 # Automate Wolfgarten S150 robot lawn mower via wifi<br />
 Automate your wolfgarten S300 Robot lawn mower with an arduino ESP8266 wifi module and Control it via google Agenda<br />
 
-Setup a google calender api: 
+Setup a google calender api: <br />
 https://developers.google.com/calendar/api<br />
 https://developers.google.com/calendar/api/quickstart/python<br />
 and get your calender ID and credentials.json file which i needed in this project.<br />
@@ -17,8 +17,9 @@ There is a webserver running at the arduino which controls 2 outputs.<br />
 The outputs are connected to a arduino relay board which is connected to the buttons.<br />
 This arduino will go into your lawn mower and simply press the buttons with the proper delay for it.<br />
 
-make a dir like: /script/google-kalender and upload all the files of this repo into it and run it via a crontab. run sudo crontab -e<br />
-crontab line:<br />
+make a dir like: /script/google-kalender and upload all the files of this repo into it and run it via a crontab. <br />
+run command: sudo crontab -e<br />
+and copy/paste the line below:<br />
 @reboot sleep 10 && /script/google-kalender/wakeup /script/google-kalender/robotmaaier.py<br />
 The wakeup file will always start the python script if it fails, the script will check the google calenderevery 60 seconds<br />
 
