@@ -2,7 +2,8 @@
 Link of this repo: https://github.com/raspiuser1/Automate-Wolfgarten-S150-wifi<br />
 Automate your wolfgarten S300 Robot lawn mower with an arduino ESP8266 wifi module and Control it via google Agenda<br />
 
-I bought this lawnmower in the summer of 2021 for about 250 euros, now at the time of writing its doubled in price...anyway a wifi version of wolfgarten was much more expensive so I decided to make it work via wifi in a cheaper way. First of all: make sure you have wifi in your garden :) <br />
+I bought this lawnmower in the summer of 2021 for about 250 euros, now at the time of writing its doubled in price...anyway a wifi version of wolfgarten was much more expensive so I decided to make it work via wifi in a cheaper way. <br />
+First of all: make sure you have wifi in your garden :) <br />
 
 
 ==========================what hardware do you need========================== <br />
