@@ -42,19 +42,19 @@ robotmaaier_command.sh noodstop.home<br />
 #just stop and stay where you are:<br />
 robotmaaier_command.sh grasmaaier.uit<br />
 
-#normal mowing (2,5 hours)
+#normal mowing (2,5 hours)<br />
 robotmaaier_command.sh normale.maaibeurt<br />
 
-#short mowing (1 hour)
+#short mowing (1 hour)<br />
 robotmaaier_command.sh korte.maaibeurt<br />
 
-#childlock on
+#childlock on<br />
 robotmaaier_command.sh kinderslot.aan<br />
 
-#childlock off
+#childlock off<br />
 robotmaaier_command.sh kinderslot.uit<br />
 
-#mowing when childlock on
+#mowing when childlock on<br />
 robotmaaier_command.sh maaien.met.kinderslot<br />
 
 
