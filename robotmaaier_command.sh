@@ -1,6 +1,8 @@
 #!/bin/bash
+# repo https://github.com/raspiuser1/Automate-Wolfgarten-S150-wif
 
-#only active between month 3 and 10
+
+#only active between month 4 and 10, you can remove this or edit it
 maandnu=$(date +%m)
 if [ $maandnu -lt "3" ] || [ $maandnu -gt "10" ]
 then
@@ -29,21 +31,12 @@ then
     postdata="7777"
 fi
 
-if [ $1 = "normale.maaibeurt" ]
-then
-    if [ "$garage" = "0" ]; then 
-	echo "Exit: Er word al gemaaid"
-	exit 1
-    fi
-fi
 
 if [ $1 = "korte.maaibeurt" ]
 then
     postdata="1111"
 fi
-#
 
-#
 if [ $1 = "kinderslot.aan" ]
 then
     postdata="4444"
@@ -52,6 +45,7 @@ if [ $1 = "kinderslot.uit" ]
 then
     postdata="6666"
 fi
+
 if [ $1 = "maaien.met.kinderslot" ]
 then
     postdata="5555"
