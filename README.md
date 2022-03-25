@@ -6,7 +6,7 @@ and get your ID and credentials file.
 
 Install Arduino sketch:
 Set your ip and dns first if need in the INO file and Upload the arduino sketch esp8266.ino to your ESP8266, I used a NODE MCU 1.0.
-The best is to set a static ip. In this example we are using 192.168.1.122 you can change it both in  esp8266.ino and start.sh 
+The best is to set a static ip. In this example we are using 192.168.1.122 you can change it both in  esp8266.ino and robotmaaier_command.py 
 
 How it works:
 There is a webserver running at the arduino which controls 2 outputs.
