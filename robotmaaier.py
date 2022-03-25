@@ -55,7 +55,7 @@ while SCOPES:
     # Call the Calendar API
     now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
     #print('Getting the upcoming 10 events')
-    #events_result = service.events().list(calendarId='primary', timeMin=now, #voor de standaard kalender
+    #change you calenderID:
     events_result = service.events().list(calendarId='change your id here@group.calendar.google.com', timeMin=now,
                                         maxResults=1, singleEvents=True,
                                         orderBy='startTime').execute()
@@ -104,6 +104,7 @@ while SCOPES:
         if temp1 == 2:
             einddate = endDate#stel alleen in tijdens startup
             startdatum = StartDate
+                #date info about mowing
         print("Info maaitijden ----- start: " + str(StartDate) + " stop: " + str(endDate) + " tijd: " + str(currentTime) + " temp=" + str(temp1))
         
         
@@ -112,25 +113,26 @@ while SCOPES:
             if naam.upper() == "START":
                 startdatum = StartDate
                 einddate = endDate
+                #date of mowing adapted
                 print("Datums maaien aangepast, start: " + str(StartDate) + " +2u - stop: " + str(endDate) + " +2u - tijd: " + str(currentTime) + " +2u")
             temp1 = 0  
         else:
             
             #print("Event is bezig")
             if (temp1 == 0 or temp1 == 2) and currentTime > startdatum:
-                #os.system("/script/google-kalender/robotmaaier_command.py noodstop.home")
+                #os.system("/script/google-kalender/robotmaaier_command.sh noodstop.home")
                 print("Maai info:")
                 print("------------------------------------------------")
-                #text1 = os.system("/script/google-kalender/robotmaaier_command.py normale.maaibeurt")
-                text1 = commands.getoutput("/script/google-kalender/robotmaaier_command.py normale.maaibeurt")
+                #text1 = os.system("/script/google-kalender/robotmaaier_command.sh normale.maaibeurt")
+                text1 = commands.getoutput("/script/google-kalender/robotmaaier_command.sh normale.maaibeurt")
                 print(text1)
                 #kijk of er een exit foutmelding voorkomt want dan wordt er niet gemaaid
                 if (text1.find("Exit") == -1):
                    temp1 = 1
-                   print("Maaien gestart")
+                   print("Maaien gestart")#mowing started
                    print("------------------------------------------------")
                 else:
-                   print("Er wordt niet gemaaid")
+                   print("Er wordt niet gemaaid")#mowing stopped
                    print("------------------------------------------------")
                   
             #print(StartDate)
