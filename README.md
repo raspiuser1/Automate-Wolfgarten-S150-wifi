@@ -1,5 +1,5 @@
-# Automate-Wolfgarten-S150-wifi<br />
-Automate your wolfgarten S300 lawn mower with an arduino ESP8266 wifi module and Control it via google Agenda<br />
+# Automate Wolfgarten S150 robotmower via wifi<br />
+Automate your wolfgarten S300 Robot lawn mower with an arduino ESP8266 wifi module and Control it via google Agenda<br />
 
 Setup a google calender api: 
 https://developers.google.com/calendar/api<br />
