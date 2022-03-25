@@ -20,3 +20,6 @@ the wakeup file will always start the python script if it fails, the script will
 
 from the google calender setup you received a credentials.json file which you have to put in the same directory as the script.
 change the Calender ID in the script (line 59) according to your used calender, I made a new layer for this one.
+
+
+A video will be posted soon
