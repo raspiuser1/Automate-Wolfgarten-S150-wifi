@@ -56,28 +56,26 @@ when START or STOP is met the script will run the shell script robotmaaier_comma
 that's because you can run it from home automation software, a website or manually without the need of the google agenda.<br />
 
 ## Terminal commands
-#stop and go to the base station:<br />
+- stop and go to the base station:<br />
 robotmaaier_command.sh noodstop.home<br />
 
-#just stop and stay where you are:<br />
+- just stop and stay where you are:<br />
 robotmaaier_command.sh grasmaaier.uit<br />
 
-#normal mowing (2,5 hours)<br />
+- normal mowing (2,5 hours)<br />
 robotmaaier_command.sh normale.maaibeurt<br />
 
-#short mowing (1 hour)<br />
+- short mowing (1 hour)<br />
 robotmaaier_command.sh korte.maaibeurt<br />
 
-#childlock on<br />
+- childlock on<br />
 robotmaaier_command.sh kinderslot.aan<br />
 
-#childlock off<br />
+- childlock off<br />
 robotmaaier_command.sh kinderslot.uit<br />
 
-#mowing when childlock on<br />
+- mowing when childlock on<br />
 robotmaaier_command.sh maaien.met.kinderslot<br />
-
-
 
 
 
