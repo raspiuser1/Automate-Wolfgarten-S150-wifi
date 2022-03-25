@@ -1,11 +1,10 @@
 /*
  * 
  ============================IMPORTANT======================
-out3 = stop knob
-out2 = start knob
-put your wifi detals in config.h
-this repo link: https://github.com/raspiuser1/Automate-Wolfgarten-S300-wifi/
-dont forget to setup your static ip below in this script
+#we are only using D1 (out2 = start knob) and D6 (out3 = stop knob) connect these wires to your relay board
+#put your wifi detals in config.h
+#this repo link: https://github.com/raspiuser1/Automate-Wolfgarten-S300-wifi/
+#dont forget to setup your static ip below in this script
  */
 
 #include <ESP8266WiFi.h>
