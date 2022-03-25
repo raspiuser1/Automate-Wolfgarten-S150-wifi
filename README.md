@@ -20,7 +20,7 @@ connect D1 (out2 = start knob) and D6 (out3 = stop knob) to the relay board, and
 next thing is to located the wires from both knobs on the mower, the video will show you. you have to connect the relays to the knobs to make it work.
 
 
-==========================Setup a google calender api========================== <br />
+## Setup a google calender api
 https://developers.google.com/calendar/api<br />
 https://developers.google.com/calendar/api/quickstart/python<br />
 and get your calender ID and credentials.json file which i needed in this project.<br />
