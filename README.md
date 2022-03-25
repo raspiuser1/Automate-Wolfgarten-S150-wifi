@@ -6,7 +6,7 @@ I bought this lawnmower in the summer of 2021 for about 250 euros, now at the ti
 First of all: make sure you have wifi in your garden :) <br />
 
 
-==========================what hardware do you need========================== <br />
+## What hardware do you need?
 -ESP8266 NODE MCU1.0<br />
 https://www.amazon.com/ESP8266/s?k=ESP8266  <br />
 
