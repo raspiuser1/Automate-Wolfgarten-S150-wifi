@@ -56,7 +56,7 @@ the token.for the fist time you have to run the script manually like (sudo pytho
 the script listens for the word START or STOP which must be set into your calender, so when you start an event with the word START at 12:00 the lawn mower will start<br /> at that point. for example set it for 5mins that will do so from 12:00 to 12:05, it will now do the standard mowing (2,5 hours) when the battery is fully charged.<br />
 when START or STOP is met the script will run the shell script robotmaaier_command.sh, which translates it to a command which is compatible with our arduino webserver.<br />
 
-## Why is there a seperated shell file
+## Why is there a seperated shell file?
 that's because you can run it from home automation software, a website or manually without the need of the google agenda. ofcourse google agenda needs this file to send the proper commands<br />
 
 ## Terminal commands
