@@ -6,9 +6,11 @@ I bought this lawnmower in the summer of 2021 for about 250 euros, now at the ti
 First of all: make sure you have wifi in your garden :) <br />
 
 
+
 ## What hardware do you need?
 - ESP8266 NODE MCU1.0<br />
 https://www.amazon.com/ESP8266/s?k=ESP8266  <br />
+![DEBO_JT_ESP8266_01](https://user-images.githubusercontent.com/13587295/160876664-14d021ab-090c-4f5e-a0ab-5f98573d25ac.png)
 
 - 5volt arduino relay module 2 channel (not solid state relay) <br />
 https://www.amazon.com/s?k=arduino+relay+module+2+channel&crid=2APUU5MFMHU4O&sprefix=arduino+relay+module+2+channel%2Caps%2C155&ref=nb_sb_noss<br />
