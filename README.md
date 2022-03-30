@@ -20,7 +20,7 @@ https://www.amazon.nl/ICQUANZX-Converter-Transformer-Voltage-Regulator/dp/B07RGB
 
 connect D1 (out2 = start knob) and D6 (out3 = stop knob) to the relay board, and power the relay board with 5 volt<br />
 next thing is to located the wires from both knobs on the mower, the video will show you. you have to connect the relays to the knobs to make it work.
-
+![Naamloos](https://user-images.githubusercontent.com/13587295/160879294-f8053fe0-4646-43f2-a8c9-c323fcd1f655.png)
 ## How it works
 There is a webserver running at the arduino which controls 2 outputs.<br />
 1 output for the start knob and 1 for the stop button as there are only 2 buttons on the wolfgarten s150.<br />
