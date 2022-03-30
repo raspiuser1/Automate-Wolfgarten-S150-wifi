@@ -10,13 +10,13 @@ First of all: make sure you have wifi in your garden :) <br />
 ## What hardware do you need?
 - ESP8266 NODE MCU1.0<br />
 https://www.amazon.com/ESP8266/s?k=ESP8266  <br />
-![DEBO_JT_ESP8266_01](https://user-images.githubusercontent.com/13587295/160876664-14d021ab-090c-4f5e-a0ab-5f98573d25ac.png)
-
+![712MQXA8VIL _SX342_](https://user-images.githubusercontent.com/13587295/160877014-35db18d0-61b8-49da-9d44-85f6df236572.jpg)
 - 5volt arduino relay module 2 channel (not solid state relay) <br />
 https://www.amazon.com/s?k=arduino+relay+module+2+channel&crid=2APUU5MFMHU4O&sprefix=arduino+relay+module+2+channel%2Caps%2C155&ref=nb_sb_noss<br />
-
-- voltage regulator for the ESP8266, the esp needs 5 volts like. voltage regulator like: <br />
-https://www.amazon.com/Converter-DROK-Regulator-Inverter-Transformer/dp/B01NALDSJ0/ref=sr_1_9?crid=2CER2UD56BQ36&keywords=voltage+regulator+5v&qid=1648233451&sprefix=voltage+regulator+5%2Caps%2C169&sr=8-9<br />
+![61i-ObKL7zL _AC_UL320_](https://user-images.githubusercontent.com/13587295/160877249-fd9c57d9-ef69-4aee-8af6-d39e016ae3fe.jpg)
+- voltage regulator for the ESP8266, the esp needs 5 volts as the powersupply from the mower is 17 volts <br />
+https://www.amazon.nl/ICQUANZX-Converter-Transformer-Voltage-Regulator/dp/B07RGB2HB6/ref=sr_1_7?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1CS6IO3CU3QAG&keywords=voltage+regulator+5v&qid=1648655438&sprefix=voltage+regulator+5v%2Caps%2C120&sr=8-7<br />
+![61zBl-GXDsL _AC_UL320_](https://user-images.githubusercontent.com/13587295/160877416-652582a5-3317-438e-be20-0a7e83f5eda9.jpg)
 
 connect D1 (out2 = start knob) and D6 (out3 = stop knob) to the relay board, and power the relay board with 5 volt<br />
 next thing is to located the wires from both knobs on the mower, the video will show you. you have to connect the relays to the knobs to make it work.
