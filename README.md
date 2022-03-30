@@ -1,7 +1,7 @@
 # Automate Wolfgarten S150 robot lawn mower via wifi<br />
 Link of this repo: https://github.com/raspiuser1/Automate-Wolfgarten-S150-wifi<br />
 Youtube link: https://youtu.be/fPlEDx3QdZg <br />
-Automate your wolfgarten S300 Robot lawn mower with an arduino ESP8266 wifi module and Control it via google Agenda<br />
+Automate your wolfgarten S150 Robot lawn mower with an arduino ESP8266 wifi module and Control it via google Agenda<br />
 
 I bought this lawnmower in the summer of 2021 for about 250 euros, now at the time of writing its doubled in price...anyway a wifi version of wolfgarten was much more expensive so I decided to make it work via wifi in a cheaper way. <br />
 First of all: make sure you have wifi in your garden :) <br />
@@ -15,7 +15,7 @@ https://www.amazon.com/ESP8266/s?k=ESP8266  <br />
 - 5volt arduino relay module 2 channel (not solid state relay) <br />
 https://www.amazon.com/s?k=arduino+relay+module+2+channel&crid=2APUU5MFMHU4O&sprefix=arduino+relay+module+2+channel%2Caps%2C155&ref=nb_sb_noss<br />
 ![61i-ObKL7zL _AC_UL320_](https://user-images.githubusercontent.com/13587295/160877249-fd9c57d9-ef69-4aee-8af6-d39e016ae3fe.jpg)
-- voltage regulator for the ESP8266, the esp needs 5 volts as the powersupply from the mower is 17 volts <br />
+- voltage regulator for the ESP8266, the esp needs 5 volts as the battery from the mower is 12 volts <br />
 https://www.amazon.nl/ICQUANZX-Converter-Transformer-Voltage-Regulator/dp/B07RGB2HB6/ref=sr_1_7?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1CS6IO3CU3QAG&keywords=voltage+regulator+5v&qid=1648655438&sprefix=voltage+regulator+5v%2Caps%2C120&sr=8-7<br />
 ![61zBl-GXDsL _AC_UL320_](https://user-images.githubusercontent.com/13587295/160877416-652582a5-3317-438e-be20-0a7e83f5eda9.jpg)
 
