@@ -1,6 +1,6 @@
 # Automate Wolfgarten S150 robot lawn mower via wifi<br />
 Link of this repo: https://github.com/raspiuser1/Automate-Wolfgarten-S150-wifi<br />
-Youtube link: https://youtu.be/fPlEDx3QdZg
+Youtube link: https://youtu.be/fPlEDx3QdZg <br />
 Automate your wolfgarten S300 Robot lawn mower with an arduino ESP8266 wifi module and Control it via google Agenda<br />
 
 I bought this lawnmower in the summer of 2021 for about 250 euros, now at the time of writing its doubled in price...anyway a wifi version of wolfgarten was much more expensive so I decided to make it work via wifi in a cheaper way. <br />
@@ -21,7 +21,7 @@ https://www.amazon.nl/ICQUANZX-Converter-Transformer-Voltage-Regulator/dp/B07RGB
 
 connect D1 (out2 = start knob) and D6 (out3 = stop knob) to the relay board, and power the relay board with 5 volt<br />
 next thing is to located the wires from both knobs on the mower, the video will show you. you have to connect the relays to the knobs to make it work.
-https://youtu.be/fPlEDx3QdZg
+https://youtu.be/fPlEDx3QdZg <br />
 ![Naamloos](https://user-images.githubusercontent.com/13587295/160879294-f8053fe0-4646-43f2-a8c9-c323fcd1f655.png)
 ## How it works
 There is a webserver running at the arduino which controls 2 outputs.<br />
