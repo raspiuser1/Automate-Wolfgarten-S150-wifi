@@ -80,7 +80,3 @@ robotmaaier_command.sh kinderslot.uit<br />
 
 - mowing when childlock on<br />
 robotmaaier_command.sh maaien.met.kinderslot<br />
-
-
-
-## A video will be posted soon
