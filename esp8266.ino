@@ -32,7 +32,8 @@ void readCSV(String s) {
   current_data_length = 0;
   current_data_length2 = 0;
  if (s.length() == 4 ) {  
-  signal_data2[0] = s.toInt();
+  //signal_data2[0] = s.toInt();
+  signal_data2[0] = s;
  }
   for (int i = 0; i <= s.length(); ++i) {
     if ( (s.charAt(i) == ',') || ( i == (s.length()) )) {
